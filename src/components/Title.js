@@ -1,20 +1,57 @@
 import React from "react";
 // import BackgroundImage from "../assets/background.jpg";
 import Icons from "./Icons";
-// add button and background image
+import Typewriter from "typewriter-effect";
+import styled from "styled-components";
 
+
+const Container = styled.div`
+     font-family: sans-serif;
+     font-size: 50px;
+     font-weight: 500;
+     color: ${(props) => props.theme.color};
+     background: ${(props) => props.theme.background};
+     //height: 50vh;
+`;
+
+const Content = styled.div`
+     padding-top: 80px;
+     text-align: center;
+        font-family: sans-serif;
+        font-size: 50px;
+        font-weight: 500;
+        height: 50vh;
+`;
 
 
 const Title = () => {
   return (
-    // <div id="title" style={myStyle}>
     <div className="container-fluid titleblock">
       <h1 className="titleh1" >✨Hi , welcome to my website!✨</h1>
-      <h2 className="titleh1">
-          I'm so glad you're here.
-      </h2>
+        <Content>
+        <Typewriter
+            onInit={(typewriter) => {
+                typewriter
 
-      <h3 >I'm a software engineer passionate about building awesome things.</h3>
+                    .pauseFor(1000)
+                    .typeString(
+                        "<strong>I'm so glad you're here.</strong>"
+                    )
+                    .typeString(
+                        "<br/><span>I'm a software engineer passionate about technology.</span>"
+                    )
+                    .pauseFor(5000)
+                    .start();
+
+            }}
+            options={{
+                autoStart: true,
+                loop: false
+            }}
+        />
+            </Content>
+
+      {/*<h3 >I'm a software engineer passionate about building awesome things.</h3>*/}
       <br />
       <Icons />
       <a href="#skills"  class="btn btn-outline-light btn-lg title-button">
