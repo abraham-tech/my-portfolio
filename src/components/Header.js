@@ -5,9 +5,6 @@ import "../styles/nav.css";
 import Title from "./Title";
 import BackgroundImage from "../assets/background.jpg";
 
-const scrollToTop = function () {
-  scroll.scrollToTop();
-};
 
 const myStyle = {
   backgroundImage: `url(${BackgroundImage})`,
@@ -16,11 +13,6 @@ const myStyle = {
   backgroundRepeat: "no-repeat",
   textAlign: "center"
 };
-
-const logoStyle = {
-  fontSize: "xx-large",
-  fontFamily: "serif"
-}
 
 export default function Navbar() {
   const [navBar, setNavBar] = useState(false);
