@@ -16,7 +16,7 @@ const Content = styled.div`
 const Title = () => {
   return (
     <div className="container-fluid titleblock">
-      <h1 className="titleh1" >✨Hi , welcome to my website!✨</h1>
+      <h1 className="titleh1" >Hi there!👋🏿</h1>
         <Content>
         <Typewriter
             onInit={(typewriter) => {
@@ -24,10 +24,10 @@ const Title = () => {
 
                     .pauseFor(1000)
                     .typeString(
-                        "<strong>I'm so glad you're here.</strong>"
+                        "<strong>So glad you found your way to my corner of the web.</strong>"
                     )
                     .typeString(
-                        "<br/><span>I'm a software engineer passionate about technology.</span>"
+                        "<br/><span>I'm a software engineer, and I'm excited to share my world with you.</span>"
                     )
                     .pauseFor(5000)
                     .start();

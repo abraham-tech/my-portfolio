@@ -6,7 +6,7 @@ const projects = [
     name: "Portfolio site",
     description:
       "Portfolio App using reactjs with HTML CSS Javascript Bootstrap ",
-    link: ""
+    link: "https://github.com/abraham-tech/my-portfolio"
   }
 ];
 
