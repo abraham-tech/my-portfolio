@@ -26,8 +26,8 @@ export const frontend = [
     },
      {
         id: 6,
-        name: 'Flutter',
-        logo: "logos:flutter",
+        name: 'Angular',
+        logo: "logos:angular",
     }
 ];
 
@@ -51,14 +51,19 @@ export const backend = [
         id: 4,
         name: 'Api',
         logo: "eos-icons:api"
+    },
+    {
+        id: 5,
+        name: 'Spring',
+        logo: "logos:spring"
     }
 ];
 
 export const databases = [
     {
         id: 1,
-        name: 'SQL',
-        logo: "vscode-icons:file-type-sql"
+        name: 'Firebase',
+        logo: "logos:firebase"
     },
     {
         id: 2,
@@ -69,6 +74,11 @@ export const databases = [
         id: 3,
         name: 'MongoDb',
         logo: "logos:mongodb"
+    },
+    {
+        id: 3,
+        name: 'PostgresSQL',
+        logo: "logos:postgresql"
     }
 ];
 
@@ -93,12 +103,7 @@ export const languages = [
         id: 4,
         name: "Javascript",
         logo: "logos:javascript"
-    },
-    {
-        id: 5,
-        name: "Dart",
-        logo: "logos:dart"
-    },
+    }
 ];
 
 export const tools = [
@@ -126,11 +131,6 @@ export const tools = [
         id: 5,
         name: "Terminal",
         logo: "bxs:terminal"
-    },
-    {
-        id: 6,
-        name: "Code SandBox",
-        logo: "ant-design:code-sandbox-circle-filled"
-    },
+    }
     
 ]

@@ -96,7 +96,7 @@ export default function Navbar() {
                 </li>
                 <li>
                   <a
-                    href="https://drive.google.com/file/d/1Qrs-IHdePXIGK_eBdHyNxAqqBoQlrDZ-/view?usp=sharing"
+                    href="https://drive.google.com/file/d/11DMKGNEZEw2wwptNlQ7OpBQjzg3utrHE/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

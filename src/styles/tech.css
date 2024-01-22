@@ -7,8 +7,9 @@
 
 .tech {
     color: black;
-    margin-bottom: 10px;
-    font-size: 15px;
+    /*margin-bottom: 10px;*/
+    padding: 10px;
+    font-size: 2em;
 }
 
 .hide {

@@ -1,18 +1,7 @@
 import React from "react";
-// import BackgroundImage from "../assets/background.jpg";
 import Icons from "./Icons";
 import Typewriter from "typewriter-effect";
 import styled from "styled-components";
-
-
-const Container = styled.div`
-     font-family: sans-serif;
-     font-size: 50px;
-     font-weight: 500;
-     color: ${(props) => props.theme.color};
-     background: ${(props) => props.theme.background};
-     //height: 50vh;
-`;
 
 const Content = styled.div`
      padding-top: 80px;
@@ -51,7 +40,6 @@ const Title = () => {
         />
             </Content>
 
-      {/*<h3 >I'm a software engineer passionate about building awesome things.</h3>*/}
       <br />
       <Icons />
       <a href="#skills"  class="btn btn-outline-light btn-lg title-button">

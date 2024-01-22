@@ -37,10 +37,10 @@ const Tech = () => {
             <p className="tech">FRONTEND </p>
             <div className="container">
             <div className="row">
-              <div className="col-lg-6 techsvg left">
+              <div className="col-lg-5 techsvg left">
               <img className="techStackImage" src={frontendImg} alt="frontend" />
               </div>
-              <div className="col-lg-6 techicons right">
+              <div className="col-lg-7 techicons right">
               {frontend.map(TechCardData)}
               </div>
             </div>
@@ -53,10 +53,10 @@ const Tech = () => {
             <p className="tech">BACKEND </p>
             <div className="container">
             <div className="row">
-              <div className="col-lg-6 techicons left">
+              <div className="col-lg-7 techicons left">
               {backend.map(TechCardData)}
               </div>
-              <div className="col-lg-6 techsvg right">
+              <div className="col-lg-5 techsvg right">
               <img className="techStackImage" src={backendImg} alt="backend" />
               </div>
             </div>
@@ -66,7 +66,7 @@ const Tech = () => {
 
           <div className="row" >
             <div className="TechCard p-3 mb-2">
-            <p className="tech">DATABASES </p>
+            <p className="tech">DATABASES</p>
             <div className="container">
             <div className="row">
             <div className="col-lg-6 techsvg left">

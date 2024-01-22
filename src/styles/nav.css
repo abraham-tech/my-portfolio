@@ -157,7 +157,7 @@ a {
   }
 
   .tech {
-      font-size: 15px;
+      font-size: 10em;
       margin: 0;
   }
   .titleH1{
@@ -176,7 +176,7 @@ a {
     line-height: 0rem;
   }
   .row{
-    margin-bottom: 0rem;
+    margin-bottom: 10rem;
   }
 
   .techStackImage{

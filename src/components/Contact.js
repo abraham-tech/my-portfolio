@@ -2,7 +2,6 @@ import React from "react";
 import Heading from "../utils/Heading";
 import Paragraph from "../utils/Paragraph";
 import Icons from "./Icons";
-//add socials
 
 const Contact = () => {
   return (
