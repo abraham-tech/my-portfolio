@@ -1,6 +1,7 @@
 import portfolio from "../assets/portfolio.jpeg";
 import mazes from "../assets/mazes.png"
 import flaskBlog from "../assets/flaskBlog.png"
+import restAPI from "../assets/restAPI.png"
 const projects = [
   {
     id: 1,
@@ -25,7 +26,15 @@ const projects = [
     description:
       "Portfolio App using reactjs with HTML CSS Javascript Bootstrap ",
     link: "https://github.com/abraham-tech/my-portfolio"
-  }
+  },
+  {
+    id: 4,
+    image: restAPI,
+    name: "Express REST API",
+    description:
+        "This is a game application implemented using Node Express, adhering to RESTful principles.",
+    link: "https://github.com/abraham-tech/game-rest-api"
+  },
 ];
 
 export default projects;
