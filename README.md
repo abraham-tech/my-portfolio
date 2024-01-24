@@ -1,3 +1,39 @@
+# JavaScript Project with React
+
+This is a JavaScript project powered by React. The project is set up with the following packages and tools:
+
+
+## Requirements
+
+- Node.js installed on your machine
+- Installed package manager (npm)
+
+## Installation
+
+To install the project:
+
+1. Navigate to the project folder in your terminal and run `npm install`
+
+Once installation is complete, all necessary packages will be installed for the project to run.
+
+## Running the Project
+
+To run the project, use the command `npm start`
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+
+## Tests
+
+This project uses Jest and the React Testing Library for testing. Execute `npm test` to run tests.
+
+## Development
+
+This project is currently in development. More updates and features are to be expected.
+
+## Contribute
+
+We welcome contributions, if you are interested, feel free to open a pull request.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -39,33 +75,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# my-portfolio
+This project is open source under the MIT license.
