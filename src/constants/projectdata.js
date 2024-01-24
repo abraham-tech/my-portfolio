@@ -2,6 +2,7 @@ import portfolio from "../assets/portfolio.jpeg";
 import mazes from "../assets/mazes.png"
 import flaskBlog from "../assets/flaskBlog.png"
 import restAPI from "../assets/restAPI.png"
+import schoolApp from "../assets/schoolApp.png"
 const projects = [
   {
     id: 1,
@@ -35,6 +36,14 @@ const projects = [
         "This is a game application implemented using Node Express, adhering to RESTful principles.",
     link: "https://github.com/abraham-tech/game-rest-api"
   },
+  {
+    id: 5,
+    image: schoolApp,
+    name: "Addis school",
+    description:
+        "This repository contains the codebase for the Addis-School project. It demonstrates the application of MERN stack technology",
+    link: "https://github.com/abraham-tech/addis-school"
+  }
 ];
 
 export default projects;
