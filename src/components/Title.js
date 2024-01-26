@@ -4,13 +4,16 @@ import Typewriter from "typewriter-effect";
 import styled from "styled-components";
 
 const Content = styled.div`
-     padding-top: 80px;
+    padding-top: 80px;
     color: darkgreen;
-     text-align: center;
-        font-family: monospace;
-        font-size: 25px;
-        font-weight: 500;
-        height: 50vh;
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: 500;
+    height: 50vh;
+    @media (max-width: 620px) {
+        padding-top: 0px;
+    }
 `;
 
 
