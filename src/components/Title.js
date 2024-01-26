@@ -5,9 +5,10 @@ import styled from "styled-components";
 
 const Content = styled.div`
      padding-top: 80px;
+    color: darkgreen;
      text-align: center;
         font-family: sans-serif;
-        font-size: 50px;
+        font-size: 25px;
         font-weight: 500;
         height: 50vh;
 `;
