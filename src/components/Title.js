@@ -7,7 +7,7 @@ const Content = styled.div`
      padding-top: 80px;
     color: darkgreen;
      text-align: center;
-        font-family: sans-serif;
+        font-family: monospace;
         font-size: 25px;
         font-weight: 500;
         height: 50vh;
@@ -22,15 +22,13 @@ const Title = () => {
         <Typewriter
             onInit={(typewriter) => {
                 typewriter
-
                     .pauseFor(1000)
                     .typeString(
-                        "<strong>So glad you found your way to my corner of the web.</strong>"
+                        "<span>So glad you found your way to my corner of the web.</span>"
                     )
                     .typeString(
                         "<br/><span>I'm a software engineer, and I'm excited to share my world with you.</span>"
                     )
-                    .pauseFor(5000)
                     .start();
 
             }}
