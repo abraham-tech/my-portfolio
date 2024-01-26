@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/icons.css";
-//logo for every card and use props to fill title and content details of the skillcard
 
 const SkillCard = (props) => {
   return (
