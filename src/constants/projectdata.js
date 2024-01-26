@@ -1,4 +1,4 @@
-import portfolio from "../assets/portfolio.jpeg";
+import background from "../assets/background.jpg";
 import mazes from "../assets/mazes.png"
 import flaskBlog from "../assets/flaskBlog.png"
 import restAPI from "../assets/restAPI.png"
@@ -22,7 +22,7 @@ const projects = [
   },
   {
     id: 3,
-    image: portfolio,
+    image: background,
     name: "Portfolio site",
     description:
       "Portfolio App using reactjs with HTML CSS Javascript Bootstrap ",
