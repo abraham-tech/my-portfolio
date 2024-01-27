@@ -7,6 +7,15 @@ const projects = [
   {
     id: 1,
     image: flaskBlog,
+    name: "Alumni Management",
+    logo: "logos:java",
+    description:
+        "The Alumni Management System, powered by Spring Boot and Java, is a web-based application designed to efficiently organize and enhance interactions within a university's alumni network. This user-friendly platform fosters stronger connections, facilitates networking, and enables seamless communication between alumni and the institution.",
+    link: "https://github.com/abraham-tech/Flask_Blog"
+  },
+  {
+    id: 2,
+    image: flaskBlog,
     name: "Flask blog app",
     logo: "logos:flask",
     description:
@@ -14,7 +23,7 @@ const projects = [
     link: "https://github.com/abraham-tech/Flask_Blog"
   },
   {
-    id: 2,
+    id: 3,
     image: mazes,
     name: "UU game",
     logo: "logos:python",
@@ -23,7 +32,7 @@ const projects = [
     link: "https://github.com/abraham-tech/UUgame"
   },
   {
-    id: 3,
+    id: 4,
     image: background,
     name: "Portfolio site",
     logo: "logos:nodejs",
@@ -32,7 +41,7 @@ const projects = [
     link: "https://github.com/abraham-tech/my-portfolio"
   },
   {
-    id: 4,
+    id: 5,
     image: restAPI,
     name: "Express REST API",
     logo: "eos-icons:api",
@@ -41,7 +50,7 @@ const projects = [
     link: "https://github.com/abraham-tech/game-rest-api"
   },
   {
-    id: 5,
+    id: 6,
     image: schoolApp,
     name: "Addis school",
     logo: "logos:nodejs",
