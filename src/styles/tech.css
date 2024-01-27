@@ -23,6 +23,13 @@
     transition: transform 200ms ease-in;
 }
 
+.tech_project_icons {
+    margin: 5px 15px 5px 15px;
+    font-size: 8.5rem;
+    line-height: 2rem;
+    transition: transform 200ms ease-in;
+}
+
 .medium:hover {
     transform: scale(1.2);
 }

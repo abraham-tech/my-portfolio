@@ -11,9 +11,10 @@ export default function ProjectCard(props) {
     >
       <div className="card" >
         <div className="card-body">
-          <img src={props.img} className="card__image" alt="project" />
-          <br />
-          <br />
+          <i className="tech_project_icons iconify mySpan" data-icon={props.logo}></i>
+          {/*<img src={props.img} className="card__image" alt="project"/>*/}
+          <br/>
+          <br/>
           <h3 className="card-title">{props.name}</h3>
           <p className="card-text">{props.description}</p>
         </div>

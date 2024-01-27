@@ -9,6 +9,7 @@ function ProjectCardData(project) {
     <ProjectCard
       img={project.image}
       name={project.name}
+      logo={project.logo}
       description={project.description}
       link={project.link}
     />
