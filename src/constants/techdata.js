@@ -27,7 +27,7 @@ export const frontend = [
      {
         id: 6,
         name: 'Angular',
-        logo: "logos:angular",
+        logo: "devicon:angular",
     }
 ];
 
@@ -73,7 +73,7 @@ export const databases = [
     {
         id: 3,
         name: 'MongoDb',
-        logo: "logos:mongodb"
+        logo: "devicon:mongodb-wordmark"
     },
     {
         id: 3,
