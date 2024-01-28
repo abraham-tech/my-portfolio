@@ -55,7 +55,7 @@ export const backend = [
     {
         id: 5,
         name: 'Spring',
-        logo: "logos:spring"
+        logo: "logos:java"
     }
 ];
 
