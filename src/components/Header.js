@@ -40,57 +40,57 @@ export default function Navbar() {
               <ul className="navList mx-auto">
                 <li>
                   <Link
-                    activeClass="active"
-                    smooth="easeInOutBack"
-                    spy
-                    to="skills"
-                    offset={-65}
-                    duration={500}
+                      activeClass="active"
+                      smooth="easeInOutBack"
+                      spy
+                      to="aboutme"
+                      offset={-65}
+                      duration={500}
+                  >
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                      activeClass="active"
+                      smooth="easeInOutBack"
+                      spy
+                      to="skills"
+                      offset={-65}
+                      duration={500}
                   >
                     Skills
                   </Link>
                 </li>
                 <li>
                   <Link
-                    activeClass="active"
-                    smooth="easeInOutBack"
-                    spy
-                    to="tech"
-                    offset={-65}
-                    duration={500}
+                      activeClass="active"
+                      smooth="easeInOutBack"
+                      spy
+                      to="tech"
+                      offset={-65}
+                      duration={500}
                   >
                     Tech
                   </Link>
                 </li>
                 <li>
                   <Link
-                    activeClass="active"
-                    smooth="easeInOutBack"
-                    spy
-                    to="projects"
-                    offset={-65}
-                    duration={500}
+                      activeClass="active"
+                      smooth="easeInOutBack"
+                      spy
+                      to="projects"
+                      offset={-65}
+                      duration={500}
                   >
                     Projects
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    activeClass="active"
-                    smooth="easeInOutBack"
-                    spy
-                    to="aboutme"
-                    offset={-65}
-                    duration={500}
-                  >
-                    About
-                  </Link>
-                </li>
-                <li>
                   <a
-                    href="https://drive.google.com/file/d/11DMKGNEZEw2wwptNlQ7OpBQjzg3utrHE/view?usp=sharing"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                      href="https://drive.google.com/file/d/11DMKGNEZEw2wwptNlQ7OpBQjzg3utrHE/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
                   >
                     Resume
                   </a>
@@ -100,7 +100,7 @@ export default function Navbar() {
           </nav>
         </center>
       </header>
-      <Title />
+      <Title/>
     </section>
   );
 }

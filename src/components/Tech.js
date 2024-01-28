@@ -98,7 +98,7 @@ const Tech = () => {
 
           <div className="row" >
             <div className="TechCard p-3 mb-2">
-            <p className="tech">TOOLS </p>
+            <p className="tech">Cloud</p>
             <div className="container">
             <div className="row">
             <div className="col-lg-6 techsvg left">

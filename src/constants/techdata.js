@@ -55,7 +55,7 @@ export const backend = [
     {
         id: 5,
         name: 'Spring',
-        logo: "logos:java"
+        logo: "logos:spring-icon"
     }
 ];
 
@@ -96,8 +96,8 @@ export const languages = [
     },
     {
         id: 3,
-        name: "C++",
-        logo: "bxl:c-plus-plus"
+        name: "TypeScript",
+        logo: "devicon:typescript"
     },
     {
         id: 4,
@@ -109,28 +109,28 @@ export const languages = [
 export const tools = [
     {
         id: 1,
-        name: "GitHub",
-        logo: "icon-park:github"
+        name: "Google cloud",
+        logo: "devicon:googlecloud"
     },
     {
         id: 2,
-        name: "GitLab",
-        logo: "logos:gitlab"
+        name: "Terraform",
+        logo: "devicon-plain:terraform"
     },
     {
         id: 3,
-        name: "Postman",
-        logo: "logos:postman-icon"
+        name: "Travis",
+        logo: "devicon:travis"
     },
     {
         id: 4,
-        name: "VSCode",
-        logo: "vscode-icons:file-type-vscode"
+        name: "Docker",
+        logo: "logos:docker-icon"
     },
     {
         id: 5,
-        name: "Terminal",
-        logo: "bxs:terminal"
+        name: "Kubernetes",
+        logo: "logos:kubernetes"
     }
     
 ]

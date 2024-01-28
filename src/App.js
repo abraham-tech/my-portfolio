@@ -6,17 +6,19 @@ import About from "./components/About";
 import Tech from "./components/Tech";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
+
 function App() {
-  return (
-    <div>
-      <Header />
-      <Skills />
-      <Tech />
-      <Projects />
-      <About />
-      <Contact />
-    </div>
-  );
+    return (
+        <div>
+            <Header/>
+            <About/>
+            <Skills/>
+            <Tech/>
+            <Projects/>
+
+            <Contact/>
+        </div>
+    );
 }
 
 export default App;
