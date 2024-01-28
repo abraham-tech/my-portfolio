@@ -37,7 +37,7 @@ const projects = [
     name: "Portfolio site",
     logo: "logos:react",
     description:
-      "Portfolio App using reactjs with HTML CSS Javascript Bootstrap ",
+      "Portfolio App using reactjs with HTML CSS Javascript Bootstrap. This page provides a brief overview of my skills and experience, along with the technologies I used to build it. You can also find a link to my full resume for more details. You see! This page shows you exactly what I've been talking about.",
     link: "https://github.com/abraham-tech/my-portfolio"
   },
   {
