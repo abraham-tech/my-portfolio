@@ -35,7 +35,7 @@ const projects = [
     id: 4,
     image: background,
     name: "Portfolio site",
-    logo: "logos:nodejs",
+    logo: "logos:react",
     description:
       "Portfolio App using reactjs with HTML CSS Javascript Bootstrap ",
     link: "https://github.com/abraham-tech/my-portfolio"
